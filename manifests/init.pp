@@ -48,7 +48,7 @@
 #
 # * `beat_name`
 # [String] The name of the beat which is published as the `beat.name`
-# field of each transaction. (default: $::hostname)
+# field of each transaction. (default: $facts['networking']['hostname'])
 #
 # * `config_dir`
 # [String] The absolute path to the configuration folder location. (default:

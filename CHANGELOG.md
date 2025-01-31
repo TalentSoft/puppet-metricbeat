@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file.
 
+## Unreleased
+
+- Replaced `$::hostname` by `$facts['networking']['hostname']` to achieve Puppet 8 compatibility.
+- Replaced `$::osfamily` by `$facts['os']['family']` to achieve Puppet 8 compatibility.
+- Replaced `$::architecture` by `$facts['os']['architecture']` to achieve Puppet 8 compatibility.
+
 ## Release 0.4.2
 
 **Added**
